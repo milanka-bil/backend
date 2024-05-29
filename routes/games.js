@@ -1,5 +1,4 @@
 const gamesRouter = require("express").Router();
-
 const {
   createGame,
   findGameById,

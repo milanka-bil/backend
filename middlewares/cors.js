@@ -4,6 +4,9 @@ const allowedCors = [
   "http://localhost:3001",
   "http://localhost:3000",
   "https://milankafrontend.nomorepartiesco.ru",
+  "http://milankafrontend.nomorepartiesco.ru",
+  "https://milankabackend.nomorepartiesco.ru",
+  "http://milankabackend.nomorepartiesco.ru",
 ];
 
 function cors(req, res, next) {
